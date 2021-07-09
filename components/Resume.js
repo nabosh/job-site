@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 // import styles from 'Newresume.css';
 
-export default function Newresume() {
+export default function Resume() {
   const [toggle, setToggle] = useState(false);
 
   return (
     <>
-      {/* <button onClick={() => setToggle(!toggle)}>Toggle Dropdown Markup</button> */}
       <div
         onClick={() => setToggle(!toggle)}
         class="flex items-center justify-center mt-4"
       >
-        <a class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md">
+        <a class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1">
           I have records
         </a>
       </div>
@@ -29,7 +28,7 @@ export default function Newresume() {
                 <p class="text-center">
                   <strong>Chief Technology Officer</strong>
                 </p>
-                <p>
+                <p class="text-center pt-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -47,14 +46,16 @@ export default function Newresume() {
                     marketing aimed at increasing customer conversions.
                   </li>
                 </ul>
+                <hr class="mt-6" />
+
                 <p class="pt-6 text-center">
                   <strong>ZULU MARKETING </strong>&middot; Lehi, UT &middot;
                   10/2018 to 8/2020
                 </p>
-                <p>
+                <p class="text-center">
                   <strong>Director of Technology </strong>
                 </p>
-                <p>
+                <p class="text-center pt-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -88,15 +89,17 @@ export default function Newresume() {
                     savings.
                   </li>
                 </ul>
+                <hr class="mt-6" />
+
                 <p class="pt-6 text-center">
                   <strong>ARISTOTLE </strong>&middot; Provo, UT &middot; 5/2017
                   to 10/2018; 4/2015 to 3/2017
                 </p>
-                <p>
+                <p class="text-center">
                   <strong>Director, Client Sales &amp; Services </strong>
                   (5/2017 &ndash; 10/2018)
                 </p>
-                <p>
+                <p class="text-center pt-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -119,10 +122,10 @@ export default function Newresume() {
                     verification customers.
                   </li>
                 </ul>
-                <p class="pt-3">
+                <p class="text-center pt-3">
                   <strong>Web Developer</strong> (4/2015 &ndash; 3/2017)
                 </p>
-                <p>
+                <p class="text-center pt-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -142,6 +145,7 @@ export default function Newresume() {
                     after departure.
                   </li>
                 </ul>
+                <hr class="mt-6" />
                 <p class="pt-6 text-center">
                   <strong>ZULU MARKETING </strong>&middot; Lehi, Utah &middot;
                   10/2014 to 4/2015
@@ -149,7 +153,7 @@ export default function Newresume() {
                 <p>
                   <strong>Software Developer </strong>
                 </p>
-                <p>
+                <p class="text-center pt-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
