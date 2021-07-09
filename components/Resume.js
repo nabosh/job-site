@@ -19,8 +19,8 @@ export default function Resume() {
         <div className="">
           <p>
             {' '}
-            <div className="relative p-6 flex-auto">
-              <div className="relative p-6 flex-auto">
+            <div className="relative flex-grow pt-3">
+              <div className="relative  ">
                 <p class="text-center">
                   <strong>QUANT CLUB INC </strong>&middot; San Clemente, CA
                   &middot; 8/2020 to Present
@@ -28,7 +28,7 @@ export default function Resume() {
                 <p class="text-center">
                   <strong>Chief Technology Officer</strong>
                 </p>
-                <p class="text-center pt-1">
+                <p class="text-center pt-2 pb-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -55,7 +55,7 @@ export default function Resume() {
                 <p class="text-center">
                   <strong>Director of Technology </strong>
                 </p>
-                <p class="text-center pt-1">
+                <p class="text-center pt-2 pb-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -99,7 +99,7 @@ export default function Resume() {
                   <strong>Director, Client Sales &amp; Services </strong>
                   (5/2017 &ndash; 10/2018)
                 </p>
-                <p class="text-center pt-1">
+                <p class="text-center pt-2 pb-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -125,7 +125,7 @@ export default function Resume() {
                 <p class="text-center pt-3">
                   <strong>Web Developer</strong> (4/2015 &ndash; 3/2017)
                 </p>
-                <p class="text-center pt-1">
+                <p class="text-center pt-2 pb-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
@@ -150,10 +150,10 @@ export default function Resume() {
                   <strong>ZULU MARKETING </strong>&middot; Lehi, Utah &middot;
                   10/2014 to 4/2015
                 </p>
-                <p>
+                <p className="text-center">
                   <strong>Software Developer </strong>
                 </p>
-                <p class="text-center pt-1">
+                <p class="text-center pt-2 pb-1">
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
                 <ul>
