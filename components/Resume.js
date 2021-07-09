@@ -10,7 +10,7 @@ export default function Resume() {
         onClick={() => setToggle(!toggle)}
         class="flex items-center justify-center mt-4"
       >
-        <a class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1">
+        <a class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer">
           I have records
         </a>
       </div>
@@ -21,7 +21,7 @@ export default function Resume() {
             {' '}
             <div className="relative p-6 flex-auto">
               <div className="relative p-6 flex-auto">
-                <p class="pt-6 text-center">
+                <p class="text-center">
                   <strong>QUANT CLUB INC </strong>&middot; San Clemente, CA
                   &middot; 8/2020 to Present
                 </p>
