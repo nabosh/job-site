@@ -22,7 +22,7 @@ export default function Home() {
                   target="_blank"
                   class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
                 >
-                  I have 500+ connections
+                  My LinkedIn{' '}
                 </a>
               </div>
               <div class="flex items-center justify-center mt-4">
@@ -31,7 +31,7 @@ export default function Home() {
                   target="_blank"
                   class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
                 >
-                  I have been stalked by corporate america
+                  Google Me
                 </a>
               </div>
               <div class="flex items-center justify-center mt-4">
@@ -39,7 +39,7 @@ export default function Home() {
                   href="mailto:nabosh+website@outlook.com"
                   class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md"
                 >
-                  I have access to asynchronous digital messaging technology
+                  Email Me
                 </a>
               </div>
             </div>

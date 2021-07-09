@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import styles from 'Newresume.css';
+// import styles from 'Resume.css';
 
 export default function Resume() {
   const [toggle, setToggle] = useState(false);
@@ -10,9 +10,8 @@ export default function Resume() {
         onClick={() => setToggle(!toggle)}
         class="flex items-center justify-center mt-4"
       >
-        <a class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer">
-          I have records
-        </a>
+        {/* <a class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer text-change"> */}
+        <a class="text-change">My Resume</a>
       </div>
 
       {toggle && (
