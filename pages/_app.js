@@ -1,7 +1,7 @@
 // import '../styles/globals.css'
 import 'tailwindcss/tailwind.css';
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-GVE2YQNBXM');
+ReactGA.initialize('UA-6594191-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function MyApp({ Component, pageProps }) {
