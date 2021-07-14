@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css';
 import Resume from '../components/Resume';
+import Api from '../components/Api';
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
                   Email Me
                 </a>
               </div>
+              <Api />
             </div>
           </div>
         </div>
