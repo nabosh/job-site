@@ -6,12 +6,6 @@ const baseURL = 'https://catfact.ninja/fact';
 export default function Api() {
   const [post, setPost] = React.useState(null);
 
-  // React.useEffect(() => {
-  //   axios.get(baseURL).then((response) => {
-  //     setPost(response.data);
-  //   });
-  // }, []);
-
   function getFact() {
     axios.get(baseURL).then((response) => {
       setPost(response.data);
@@ -52,7 +46,7 @@ export default function Api() {
           onClick={stopFact}
           className="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
         >
-          No More?
+          No More!
         </button>
       </div>
       <h1 className="pt-6 catFact">{post.fact}</h1>
