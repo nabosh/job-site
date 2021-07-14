@@ -18,13 +18,20 @@ export default function Api() {
     });
   }
 
+  function stopFact() {
+    const elements = document.getElementsByClassName('catFact');
+    while (elements.length > 0) {
+      elements[0].parentNode.removeChild(elements[0]);
+    }
+  }
+
   if (!post)
     return (
-      <div class="pt-10">
-        <div class="flex items-center justify-center mt-4">
+      <div className="pt-10">
+        <div className="flex items-center justify-center mt-4">
           <button
             onClick={getFact}
-            class="text-xs uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-300 text-gray-300 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
+            className="text-xs uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-300 text-gray-300 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
           >
             Bored? Get a Fact
           </button>
@@ -33,16 +40,22 @@ export default function Api() {
     );
 
   return (
-    <div class="pt-10">
-      <div class="flex items-center justify-center mt-4">
+    <div className="pt-10">
+      <div className="flex items-center justify-center mt-4 catFact">
         <button
           onClick={getFact}
-          class="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
+          className="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
         >
-          Another?
+          More?
+        </button>
+        <button
+          onClick={stopFact}
+          className="uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-800 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
+        >
+          No More?
         </button>
       </div>
-      <h1 class="pt-6">{post.fact}</h1>
+      <h1 className="pt-6 catFact">{post.fact}</h1>
     </div>
   );
 }
