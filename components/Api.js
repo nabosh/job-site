@@ -47,7 +47,7 @@ export default function Api() {
               onClick={getFact}
               className="text-xs uppercase py-2 my-2 px-4 bg-transparent dark:text-gray-800 dark:bg-white hover:dark:bg-gray-100 border-2 border-gray-300 text-gray-300 dark:text-white hover:bg-gray-800 hover:text-white text-md mt-1 cursor-pointer"
             >
-              Bored? Get Fact
+              Bored? Get Facts
             </button>
           </div>
         </div>
