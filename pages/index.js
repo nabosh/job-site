@@ -2,7 +2,6 @@
 
 import styles from "../styles/Home.module.css";
 import Resume from "../components/Resume";
-import Api from "../components/Api";
 import { ThemeProvider } from "../components/ThemeContext";
 import Background from "../components/Background";
 import ThemeToggle from "../components/ThemeToggle";
