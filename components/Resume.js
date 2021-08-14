@@ -55,7 +55,7 @@ export default function Resume() {
                   10/2018 to 8/2020
                 </p>
                 <p className='text-center'>
-                  <strong>Director of Technology </strong>
+                  <strong>Director of Information Technology </strong>
                 </p>
                 <p className='text-center pt-2 pb-1'>
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
