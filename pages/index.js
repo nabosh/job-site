@@ -12,7 +12,7 @@ export default function Home() {
       <header>
         <meta name='robots' content='noindex' />
       </header>
-      <h1 className='grid justify-items-center pt-6'>Will return soon</h1>
+      <h1 className='grid justify-items-center pt-6'>...back soon</h1>
     </div>
   );
 }
