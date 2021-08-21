@@ -1,6 +1,5 @@
 /** @format */
 
-// import styles from "../styles/Home.module.css";
 import Resume from "../components/Resume";
 import { ThemeProvider } from "../components/ThemeContext";
 import Background from "../components/Background";
