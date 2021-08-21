@@ -1,5 +1,6 @@
 /** @format */
 
+import styles from "../styles/Home.module.css";
 import Resume from "../components/Resume";
 import { ThemeProvider } from "../components/ThemeContext";
 import Background from "../components/Background";
@@ -22,25 +23,23 @@ export default function Home() {
                   <p className='text-3xl my-6 text-center dark:text-white'>
                     Neil
                   </p>
-
-                  <Resume />
-
                   <div className='flex items-center justify-center mt-4'>
                     <a
                       href='https://www.linkedin.com/in/aboshamaa/'
                       target='_blank'
                       className='cursor-pointer uppercase py-2 my-2 px-4 bg-transparent dark:text-sm dark:text-gray-100 dark:hover:text-gray-900 dark:bg-gray-900 dark:hover:bg-gray-200 border-2 border-gray-800 dark:border-gray-200 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md'
                     >
-                      My LinkedIn{" "}
+                      LinkedIn{" "}
                     </a>
                   </div>
+                  <Resume />
                   <div className='flex items-center justify-center mt-4'>
                     <a
                       href='https://www.google.com/search?q=neil+aboshamaa'
                       target='_blank'
                       className='cursor-pointer uppercase py-2 my-2 px-4 bg-transparent dark:text-sm dark:text-gray-100 dark:hover:text-gray-900 dark:bg-gray-900 dark:hover:bg-gray-200 border-2 border-gray-800 dark:border-gray-200 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md'
                     >
-                      Gooogle Me
+                      Google
                     </a>
                   </div>
                   <div className='flex items-center justify-center mt-4'>
@@ -48,7 +47,7 @@ export default function Home() {
                       href='mailto:nabosh+website@outlook.com'
                       className='cursor-pointer uppercase py-2 my-2 px-4 bg-transparent dark:text-sm dark:text-gray-100 dark:hover:text-gray-900 dark:bg-gray-900 dark:hover:bg-gray-200 border-2 border-gray-800 dark:border-gray-200 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md'
                     >
-                      Email Me
+                      Email
                     </a>
                   </div>
                 </div>
@@ -57,6 +56,17 @@ export default function Home() {
           </main>
         </Background>
       </ThemeProvider>{" "}
+      <footer className={styles.footer}>
+        <a
+          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-xs -mt-9'
+        >
+          Built by me in 2021 using NextJS, ReactJS & TailwindCSS. Hosted on
+          Vercel.
+        </a>
+      </footer>
     </div>
   );
 }

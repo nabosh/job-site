@@ -1,7 +1,6 @@
 /** @format */
 
 import React, { useState } from "react";
-// import styles from 'Newresume.css';
 
 export default function Resume() {
   const [toggle, setToggle] = useState(false);
