@@ -171,7 +171,7 @@ export default function Resume() {
                 </ul>
 
                 <hr className='mt-6' />
-                <p className='pt-6 text-center'>
+                {/* <p className='pt-6 text-center'>
                   <strong>Previous Experience</strong>
                 </p>
                 <p className='text-center'>
@@ -191,7 +191,7 @@ export default function Resume() {
                   </li>
                 </ul>
                 <hr className='mt-6' />
-
+ */}
                 <p className='text-center pt-6'>
                   <strong>Education &amp; Professional Training</strong>
                 </p>
