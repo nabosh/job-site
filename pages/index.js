@@ -21,7 +21,7 @@ export default function Home() {
                 <div className='flex flex-col'>
                   <img src='/neil.png' className='rounded-full w-28 mx-auto' />
                   <p className='text-3xl my-6 text-center dark:text-white'>
-                    Neils
+                    Neil
                   </p>
                   <div className='flex items-center justify-center mt-4'>
                     <a
