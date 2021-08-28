@@ -61,7 +61,7 @@ export default function Home() {
           href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
           target='_blank'
           rel='noopener noreferrer'
-          className='text-xs font-auto pt-0'
+          className='text-xs font-mono pt-0'
         >
           Built by me in 2021 using NextJS, ReactJS & TailwindCSS. Hosted on
           Vercel.
