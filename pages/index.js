@@ -10,9 +10,7 @@ import Api from "../components/Api";
 export default function Home() {
   return (
     <div>
-      <header>
-        <meta name='robots' content='noindex' />
-      </header>
+      <header></header>
       <ThemeProvider>
         <Background>
           <main className='dark:bg-black font-mono bg-white relative overflow-hidden h-auto'>
