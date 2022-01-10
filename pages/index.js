@@ -5,6 +5,7 @@ import Resume from "../components/Resume";
 import { ThemeProvider } from "../components/ThemeContext";
 import Background from "../components/Background";
 import ThemeToggle from "../components/ThemeToggle";
+import Api from "../components/Api";
 
 export default function Home() {
   return (
@@ -33,15 +34,6 @@ export default function Home() {
                     </a>
                   </div>
                   <Resume />
-                  <div className='flex items-center justify-center mt-4'>
-                    <a
-                      href='https://www.google.com/search?q=neil+aboshamaa'
-                      target='_blank'
-                      className='cursor-pointer uppercase py-2 my-2 px-4 bg-transparent dark:text-sm dark:text-gray-100 dark:hover:text-gray-900 dark:bg-gray-900 dark:hover:bg-gray-200 border-2 border-gray-800 dark:border-gray-200 text-gray-800 dark:text-white hover:bg-gray-800 hover:text-white text-md'
-                    >
-                      Google
-                    </a>
-                  </div>
                   <div className='flex items-center justify-center mt-4'>
                     <a
                       href='mailto:nabosh+website@outlook.com'
