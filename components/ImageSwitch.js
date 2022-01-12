@@ -15,14 +15,14 @@ export default function ImageSwitch() {
           <img
             className='rounded-full w-28 mx-auto'
             src='/gorilla.png'
-            alt='yellow star'
+            alt='gorilla astronaut'
             onClick={() => setToggle(false)}
           />
         ) : (
           <img
             className='rounded-full w-28 mx-auto'
             src='/neil.png'
-            alt='black and white star'
+            alt='neil'
             onClick={() => setToggle(true)}
           />
         )}
