@@ -55,8 +55,7 @@ export default function Home() {
           rel='noopener noreferrer'
           className='text-xs font-mono pt-0'
         >
-          Built by me in 2021 using NextJS, ReactJS & TailwindCSS. Hosted on
-          Vercel.
+          Built using NextJS, ReactJS & TailwindCSS. Hosted on Vercel.
         </a>
       </footer>
     </div>
