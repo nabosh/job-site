@@ -5,7 +5,8 @@ import Resume from "../components/Resume";
 import { ThemeProvider } from "../components/ThemeContext";
 import Background from "../components/Background";
 import ThemeToggle from "../components/ThemeToggle";
-import Api from "../components/Api";
+// import Api from "../components/Api";
+import ImageSwitch from "../components/ImageSwitch";
 
 export default function Home() {
   return (
@@ -18,10 +19,11 @@ export default function Home() {
             <div className='flex relative z-20 items-center mt-10'>
               <div className='container mx-auto px-6 flex flex-col justify-between items-center relative '>
                 <div className='flex flex-col'>
-                  <img src='/neil.png' className='rounded-full w-28 mx-auto' />
+                  <ImageSwitch />
                   <p className='text-3xl my-6 text-center dark:text-white'>
                     Neil
                   </p>
+
                   <div className='flex items-center justify-center mt-4'>
                     <a
                       href='https://www.linkedin.com/in/aboshamaa/'
