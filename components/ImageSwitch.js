@@ -16,14 +16,14 @@ export default function ImageSwitch() {
             className='rounded-full w-28 mx-auto'
             src='/gorilla.png'
             alt='gorilla astronaut'
-            onClick={() => setToggle(false)}
+            onMouseOver={() => setToggle(false)}
           />
         ) : (
           <img
             className='rounded-full w-28 mx-auto'
             src='/neil.png'
             alt='neil'
-            onClick={() => setToggle(true)}
+            onMouseOut={() => setToggle(true)}
           />
         )}
       </div>
