@@ -7,10 +7,12 @@ import Background from "../components/Background";
 import ThemeToggle from "../components/ThemeToggle";
 // import Api from "../components/Api";
 import ImageSwitch from "../components/ImageSwitch";
+import Script from 'next/script'
 
 export default function Home() {
   return (
     <div>
+      <Script src="https://widget-staging.talentplatform.com/main.js" data-altru-widget-id="171890" data-altru-global-region="us" />
       <header></header>
       <ThemeProvider>
         <Background>
