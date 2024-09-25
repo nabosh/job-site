@@ -27,7 +27,7 @@ export default function Resume() {
                   9/2021 to Present
                 </p>
                 <p className='text-center'>
-                  <strong>Principal Strategic Technical Account Manager</strong>
+                  <strong>Senior Software Engineer</strong>
                 </p>
                 <p className='text-center pt-2 pb-1'>
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
