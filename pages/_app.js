@@ -1,10 +1,16 @@
 import "tailwindcss/tailwind.css";
+import { ThemeProvider } from "../components/ThemeContext";
+import Background from "../components/Background";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="min-h-screen">
-      <Component {...pageProps} />
-    </div>
+    <ThemeProvider>
+      <Background>
+        <div className="min-h-screen bg-white dark:bg-black">
+          <Component {...pageProps} />
+        </div>
+      </Background>
+    </ThemeProvider>
   );
 }
 
