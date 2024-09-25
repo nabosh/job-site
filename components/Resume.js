@@ -32,7 +32,7 @@ export default function Resume() {
                 <p className='text-center pt-2 pb-1'>
                   <strong>Key Accomplishments &amp; Responsibilities:</strong>
                 </p>
-                <ul>
+                <ul className="list-disc pl-6 space-y-2">
                   <li className='list-disc'>Much Impress</li>
                   <li className='list-disc'>So Mystery</li>
                   <li className='list-disc'>Wow</li>
@@ -49,17 +49,17 @@ export default function Resume() {
                   <p className='text-center pt-2 pb-1'>
                     <strong>Key Accomplishments &amp; Responsibilities:</strong>
                   </p>
-                  <ul>
-                    <li className='list-disc'>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>
                       Key member of startup team and responsible for all
                       technical direction of company.
                     </li>
-                    <li className='list-disc'>
+                    <li>
                       Initiated and executed re-design and re-build of company
                       website, resulting in acquisition of first customers and
                       implemented an affiliate program for outside marketers.
                     </li>
-                    <li className='list-disc'>
+                    <li>
                       Started email marketing campaign and set up text message
                       marketing aimed at increasing customer conversions.
                     </li>
@@ -76,7 +76,7 @@ export default function Resume() {
                   <p className='text-center pt-2 pb-1'>
                     <strong>Key Accomplishments &amp; Responsibilities:</strong>
                   </p>
-                  <ul>
+                  <ul className="list-disc pl-6 space-y-2">
                     <li className='list-disc'>
                       Supervise all IT and software projects and building
                       management systems for private company specializing in the
@@ -120,7 +120,7 @@ export default function Resume() {
                   <p className='text-center pt-2 pb-1'>
                     <strong>Key Accomplishments &amp; Responsibilities:</strong>
                   </p>
-                  <ul>
+                  <ul className="list-disc pl-6 space-y-2">
                     <li className='list-disc'>
                       Collaborated with International Business Development Team
                       and senior management to support sales, product
@@ -147,7 +147,7 @@ export default function Resume() {
                   <p className='text-center pt-2 pb-1'>
                     <strong>Key Accomplishments &amp; Responsibilities:</strong>
                   </p>
-                  <ul>
+                  <ul className="list-disc pl-6 space-y-2">
                     <li className='list-disc'>
                       Provided technical expertise and support in C#,
                       JavaScript, jQuery, HTML, CSS and .NET.
@@ -175,7 +175,7 @@ export default function Resume() {
                   <p className='text-center pt-2 pb-1'>
                     <strong>Key Accomplishments &amp; Responsibilities:</strong>
                   </p>
-                  <ul>
+                  <ul className="list-disc pl-6 space-y-2">
                     <li className='list-disc'>
                       Provided technical expertise and support in Python,
                       Django, WordPress and Joomla.
