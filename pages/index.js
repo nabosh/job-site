@@ -24,6 +24,9 @@ export default function Home() {
                 <p className="text-3xl my-6 text-center dark:text-white">
                   Neil
                 </p>
+                <p className="text-lg text-center dark:text-gray-300 text-gray-700 mb-4">
+                  Current Role (2024): Senior Software Engineer at iCIMS
+                </p>
                 <div className="flex items-center justify-center mt-4">
                   <a
                     href="https://www.linkedin.com/in/aboshamaa/"
